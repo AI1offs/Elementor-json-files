@@ -1,12 +1,15 @@
-# How to Use This Repo – Kit Builder Guide
+# 🧩 How to Use This Repo – Kit Builder Guide
 
 **Who this is for:** You’ve been building WordPress sites for a few years, you live in **Elementor Pro**, and you’re comfortable creating **template kits** (pages, headers, footers, popups, etc.).
+
+> Want a gentler introduction to this repo?  
+> Start with the basics guide: **[HOW-TO-USE-BASICS.md](./HOW-TO-USE-BASICS.md)**.
 
 This repo is your **Elementor JSON library** and your **AI training set**. The way you structure and name your files tells the AI (and future you) how to build new layouts.
 
 ---
 
-## 1. Recap: Key Folders for Power Users
+## 1. 🗂️ Recap: Key Folders for Power Users
 
 You probably don’t need a full tour, just the important parts:
 
@@ -18,11 +21,11 @@ You’ll mostly work in **`clients/`** (for real projects) and **`examples/`** (
 
 ---
 
-## 2. Client Projects: Training JSON per Client
+## 2. 🧷 Client Projects: Training JSON per Client
 
 When you’re building a kit for a **specific client**, treat `clients/<client-slug>/` as home base.
 
-### 2.1 Choose a clean client slug
+### 2.1 🏷️ Choose a clean client slug
 
 Use something predictable and URL-safe:
 
@@ -32,7 +35,7 @@ Use something predictable and URL-safe:
 
 Prefer lowercase + dashes.
 
-### 2.2 Use the recommended structure
+### 2.2 🧱 Use the recommended structure
 
 Inside each client folder:
 
@@ -43,7 +46,7 @@ Inside each client folder:
 - `clients/<client-slug>/docs/`  
   Client-specific rules: which widgets you prefer, layout patterns, SEO constraints, performance rules, etc.
 
-### 2.3 Name JSON like a kit, not a dump
+### 2.3 🧩 Name JSON like a kit, not a dump
 
 Don’t leave template names as `my-template-123.json`.
 
@@ -68,11 +71,11 @@ This gives the AI **strong signals** when you say things like:
 
 ---
 
-## 3. Non-Client Kits: Building a General Example Library
+## 3. 📚 Non-Client Kits: Building a General Example Library
 
 When you’re creating reusable kits that aren’t tied to a single client, use `examples/` as your **public library**.
 
-### 3.1 Create a folder per kit or style family
+### 3.1 📁 Create a folder per kit or style family
 
 Examples:
 
@@ -80,7 +83,7 @@ Examples:
 - `examples/photography-portfolio/`
 - `examples/restaurant-one-page/`
 
-### 3.2 Organize by type inside each kit folder
+### 3.2 🧱 Organize by type inside each kit folder
 
 A simple, clear breakdown might look like:
 
@@ -89,7 +92,7 @@ A simple, clear breakdown might look like:
 - `theme-parts/` – headers, footers, single, archive layouts.
 - `popups/` – announcement bars, newsletter popups, exit-intent offers.
 
-### 3.3 Use descriptive filenames
+### 3.3 🏷️ Use descriptive filenames
 
 Examples:
 
@@ -100,7 +103,7 @@ Examples:
 - `theme-parts/header-transparent-nav.json`
 - `popups/newsletter-slide-in.json`
 
-### 3.4 Document the kit briefly
+### 3.4 📝 Document the kit briefly
 
 Drop a short `NOTES.md` into each kit folder with:
 
@@ -112,7 +115,7 @@ This turns `examples/` into a **teachable reference** for the AI and any humans 
 
 ---
 
-## 4. Using the Repo With an AI Assistant
+## 4. 🤖 Using the Repo With an AI Assistant
 
 Because your JSON is now organized and named clearly, you can give the AI precise instructions, like:
 
@@ -128,7 +131,7 @@ Behind the scenes, the AI will consult:
 
 ---
 
-## 5. Power Tips for Getting the Most Out of This Repo
+## 5. ⚡ Power Tips for Getting the Most Out of This Repo
 
 1. **Think in reusable patterns, not one-off pages.**  
    Export sections (heroes, pricing, testimonials) as well as full pages so the AI can mix and match.

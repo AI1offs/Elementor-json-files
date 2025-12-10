@@ -1,10 +1,10 @@
-# How to Use This Repo
+# 📘 How to Use This Repo
 
 Pick the guide that matches your experience level.
 
 ---
 
-## 1. Basics Guide (Beginner / Intermediate)
+## 1. 🌱 Basics Guide (Beginner / Intermediate)
 
 If you:
 
@@ -25,7 +25,7 @@ That guide walks you through:
 
 ---
 
-## 2. Kit Builder Guide (Advanced)
+## 2. 🧩 Kit Builder Guide (Advanced)
 
 If you:
 
@@ -45,7 +45,7 @@ That guide shows you how to:
 
 ---
 
-## 3. Where to Start
+## 3. 🚀 Where to Start
 
 - If you’re not sure: read **the Basics guide first**, then skim the Kit Builder guide when you’re ready to build full kits.
 - If you already build Elementor kits for clients: jump straight to the **Kit Builder guide**.

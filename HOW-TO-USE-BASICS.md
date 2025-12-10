@@ -1,12 +1,15 @@
-# How to Use This Repo – Basics
+# 🌱 How to Use This Repo – Basics
 
 **Who this is for:** You’ve been building WordPress sites for a few months, you just got **Elementor Pro**, and you want a simple way to **save and reuse templates**.
+
+> Already building full template kits?  
+> Jump to the advanced guide: **[HOW-TO-USE-KIT-BUILDER.md](./HOW-TO-USE-KIT-BUILDER.md)**.
 
 This repo is like a **template toolbox** that you (and an AI helper) can use to build Elementor sites faster.
 
 ---
 
-## 1. What This Repo Is For
+## 1. 📦 What This Repo Is For
 
 - **Stores Elementor templates as JSON files.**  
   These JSON files can be **imported into Elementor** to create pages, sections, headers, etc.
@@ -19,7 +22,7 @@ You don’t have to understand every JSON detail. You mainly need to know **wher
 
 ---
 
-## 2. What You Need Before You Start
+## 2. 🧰 What You Need Before You Start
 
 Make sure you have:
 
@@ -32,7 +35,7 @@ If all that’s good, you’re ready.
 
 ---
 
-## 3. Quick Tour of the Folders
+## 3. 🗂️ Quick Tour of the Folders
 
 At the top level you’ll see folders like this:
 
@@ -51,7 +54,7 @@ You’ll spend most of your time with **`clients/`** and **`examples/`**.
 
 ---
 
-## 4. How to Import a Template Into Elementor
+## 4. ⬇️ How to Import a Template Into Elementor
 
 Let’s say you want to try one of the JSON examples in `examples/` or a client template.
 
@@ -69,7 +72,7 @@ You can now **learn from the template**, tweak it, and save your own version.
 
 ---
 
-## 5. How to Export Your Own Template Back Into This Repo
+## 5. ⬆️ How to Export Your Own Template Back Into This Repo
 
 Once you design something in Elementor that you like, you can save it into this repo.
 
@@ -88,7 +91,7 @@ Now the template is **backed up** in version control, and the AI assistant can u
 
 ---
 
-## 6. How the AI Assistant Uses This Repo (Simple View)
+## 6. 🤖 How the AI Assistant Uses This Repo (Simple View)
 
 You don’t have to memorize every doc, but here’s the basic idea:
 
@@ -110,7 +113,7 @@ When you talk to the AI, you can say things like:
 
 ---
 
-## 7. Common Mistakes & Quick Fixes
+## 7. 🧯 Common Mistakes & Quick Fixes
 
 - **Imported template looks broken**  
   - Make sure the site is using **Hello Elementor** (or at least compatible settings).
@@ -126,7 +129,7 @@ When you talk to the AI, you can say things like:
 
 ---
 
-## 8. Where to Go Next
+## 8. 🚀 Where to Go Next
 
 If you’re comfortable importing and exporting templates, you can:
 
