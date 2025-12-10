@@ -1,0 +1,20 @@
+{
+  "clientSlug": "bob",
+  "seoPlugin": "rank-math",
+  "seoPluginHandles": {
+    "titlesAndMeta": true,
+    "canonicalUrls": true,
+    "sitemaps": true,
+    "schemaTypes": ["article", "webPage"]
+  },
+  "elementorSchema": {
+    "allowed": true,
+    "preferredFaqImplementation": "plugin-first",
+    "notesForAI": "Do not add raw JSON-LD inside templates by default. If a page clearly requires FAQ schema and the SEO plugin is not configured to provide it, prefer using Elementor's dedicated FAQ/Accordion widgets with built-in schema support, if available."
+  },
+  "headings": {
+    "enforceSingleH1": true,
+    "useSemanticHierarchy": true
+  },
+  "notesForAI": "Assume Rank Math handles most global SEO. Focus on proper heading hierarchy, meaningful alt text, and avoiding duplicate or conflicting schema inside templates."
+}

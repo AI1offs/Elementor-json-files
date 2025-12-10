@@ -1,0 +1,16 @@
+{
+  "clientSlug": "tom",
+  "palette": {
+    "primary": { "label": "Primary Navy", "hex": "#0B3D91" },
+    "secondary": { "label": "Accent Gold", "hex": "#FFC107" },
+    "accent": { "label": "Accent Teal", "hex": "#009688" },
+    "neutralDark": { "label": "Neutral Charcoal", "hex": "#212121" },
+    "neutralLight": { "label": "Neutral Light Gray", "hex": "#FAFAFA" }
+  },
+  "elementorGlobalColorHandles": {
+    "primary": "global_primary",
+    "secondary": "global_secondary",
+    "accent": "global_accent"
+  },
+  "notesForAI": "Templates should use Elementor global color tokens that map to these brand values; do not hardcode hex values inside Elementor JSON."
+}

@@ -1,0 +1,14 @@
+{
+  "clientSlug": "tom",
+  "siteName": "Tom Sample Site",
+  "mode": "free",
+  "layoutSystem": "containers",
+  "elementor": {
+    "theme": "hello-elementor",
+    "usesWooCommerce": false
+  },
+  "branding": {
+    "colorsFile": "../assets/branding-colors.json"
+  },
+  "notesForAI": "Sample config for a Free-mode client using container-based layouts."
+}

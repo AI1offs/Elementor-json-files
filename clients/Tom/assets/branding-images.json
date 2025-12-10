@@ -1,0 +1,27 @@
+{
+  "clientSlug": "tom",
+  "images": {
+    "logoPrimary": {
+      "file": "images/logo-primary.png",
+      "role": "logo",
+      "recommendedAlt": "Tom Sample Site logo"
+    },
+    "logoSecondary": {
+      "file": "images/logo-secondary.png",
+      "role": "logo-alt",
+      "recommendedAlt": "Tom Sample Site secondary logo"
+    },
+    "favicon": {
+      "file": "images/favicon-512.png",
+      "role": "favicon",
+      "sizes": [32, 192, 512],
+      "recommendedAlt": "Tom Sample Site icon"
+    },
+    "socialShareDefault": {
+      "file": "images/social-share-default.jpg",
+      "role": "social-share-default",
+      "recommendedAlt": "Tom Sample Site default social sharing image"
+    }
+  },
+  "notesForAI": "Prefer Elementor dynamic Site Logo / Site Title widgets for branding rather than hardcoding image URLs. Treat these file paths as canonical assets when specific images are requested."
+}

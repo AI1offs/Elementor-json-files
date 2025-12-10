@@ -1,0 +1,14 @@
+{
+  "clientSlug": "bob",
+  "siteName": "Bob Sample Site",
+  "mode": "pro",
+  "layoutSystem": "containers",
+  "elementor": {
+    "theme": "hello-elementor",
+    "usesWooCommerce": false
+  },
+  "branding": {
+    "colorsFile": "../assets/branding-colors.json"
+  },
+  "notesForAI": "Sample config for a Pro-mode client using container-based layouts."
+}
