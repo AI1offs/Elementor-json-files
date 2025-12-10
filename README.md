@@ -25,18 +25,19 @@ All documentation is written in **Markdown** plus a small set of **JSON configur
 
 ## 📚 Table of Contents
 
-- [🤖 How an AI Assistant Should Use This Repo](#how-an-ai-assistant-should-use-this-repo)
-- [🗂️ Repository Structure](#repository-structure)
-- [🎚️ Elementor Mode Selection (High Level)](#elementor-mode-selection-high-level)
-- [🧭 Phase 1 vs Phase 2](#phase-1-vs-phase-2)
-- [🎨 Hello Elementor Theme Assumption](#hello-elementor-theme-assumption)
-- [🌐 Language, Region, and Formatting](#language-region-and-formatting)
-- [🚀 Where to Go Next](#where-to-go-next)
-- [🔗 Official Elementor Resources](#official-elementor-resources)
-- [🧩 Trusted Elementor Kits & Template Resources](#trusted-elementor-kits--template-resources)
+- [🤖 How an AI Assistant Should Use This Repo](#toc-how-an-ai-assistant-should-use-this-repo)
+- [🗂️ Repository Structure](#toc-repository-structure)
+- [🎚️ Elementor Mode Selection (High Level)](#toc-elementor-mode-selection-high-level)
+- [🧭 Phase 1 vs Phase 2](#toc-phase-1-vs-phase-2)
+- [🎨 Hello Elementor Theme Assumption](#toc-hello-elementor-theme-assumption)
+- [🌐 Language, Region, and Formatting](#toc-language-region-and-formatting)
+- [🚀 Where to Go Next](#toc-where-to-go-next)
+- [🔗 Official Elementor Resources](#toc-official-elementor-resources)
+- [🧩 Trusted Elementor Kits & Template Resources](#toc-trusted-elementor-kits-template-resources)
 
 ---
 
+<a id="toc-how-an-ai-assistant-should-use-this-repo"></a>
 ## 🤖 How an AI Assistant Should Use This Repo
 
 1. **Determine the Elementor mode (Free vs Pro).**
@@ -70,6 +71,7 @@ In a **multi-agent setup**, the "AI assistant" is typically an orchestrator or p
 
 ---
 
+<a id="toc-repository-structure"></a>
 ## 🗂️ Repository Structure
 
 Top-level structure:
@@ -108,6 +110,7 @@ The AI assistant should always:
 
 ---
 
+<a id="toc-elementor-mode-selection-high-level"></a>
 ## 🎚️ Elementor Mode Selection (High Level)
 
 - **Free mode (Elementor Core only):**
@@ -123,6 +126,7 @@ Detailed lists and rules are in `docs/elementor-modes-free-vs-pro.md` and mirror
 
 ---
 
+<a id="toc-phase-1-vs-phase-2"></a>
 ## 🧭 Phase 1 vs Phase 2
 
 - **Phase 1 (current):**
@@ -138,6 +142,7 @@ Detailed lists and rules are in `docs/elementor-modes-free-vs-pro.md` and mirror
 
 ---
 
+<a id="toc-hello-elementor-theme-assumption"></a>
 ## 🎨 Hello Elementor Theme Assumption
 
 All examples and rules assume:
@@ -149,6 +154,7 @@ If a project uses a different theme or heavily modifies the Hello theme, client-
 
 ---
 
+<a id="toc-language-region-and-formatting"></a>
 ## 🌐 Language, Region, and Formatting
 
 - **Language:** English
@@ -159,6 +165,7 @@ Placeholder text should typically use **Lorem ipsum** in English, and placeholde
 
 ---
 
+<a id="toc-where-to-go-next"></a>
 ## 🚀 Where to Go Next
 
 For any AI assistant:
@@ -173,6 +180,7 @@ For any AI assistant:
 
 ---
 
+<a id="toc-official-elementor-resources"></a>
 ## 🔗 Official Elementor Resources
 
 - **Elementor Help Center (knowledge base)**  
@@ -188,6 +196,7 @@ For any AI assistant:
 
 ---
 
+<a id="toc-trusted-elementor-kits-template-resources"></a>
 ## 🧩 Trusted Elementor Kits & Template Resources
 
 - **Envato Elements – Elementor Template Kits**  
