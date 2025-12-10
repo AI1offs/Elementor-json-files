@@ -1,4 +1,14 @@
-# Elementor JSON Template Docs – AI Assistant
+# 🧠 Elementor JSON Template Docs – AI Assistant
+
+[![Elementor](https://img.shields.io/badge/Built_for-Elementor_JSON-92003B?logo=elementor&logoColor=white)](https://elementor.com/)
+[![Platform WordPress](https://img.shields.io/badge/Platform-WordPress-21759B?logo=wordpress&logoColor=white)](https://wordpress.org/)
+
+> ⚙️ **Opinionated JSON blueprint for Elementor-powered AI assistants.**
+
+**Scope:** JSON templates · **Theme:** Hello Elementor · **Modes:** Free & Pro · **Locale:** en-US
+
+> 💡 **For AI assistants**  
+> This repo is written primarily for AI agents and tools. Follow the steps below in order, respect client-specific overrides, and always output valid JSON.
 
 This repository is a **knowledge base for AI assistants** that generate Elementor JSON templates for WordPress sites built with the **Hello Elementor** theme.
 
@@ -13,7 +23,21 @@ All documentation is written in **Markdown** plus a small set of **JSON configur
 
 ---
 
-## How an AI Assistant Should Use This Repo
+## 📚 Table of Contents
+
+- [🤖 How an AI Assistant Should Use This Repo](#how-an-ai-assistant-should-use-this-repo)
+- [🗂️ Repository Structure](#repository-structure)
+- [🎚️ Elementor Mode Selection (High Level)](#elementor-mode-selection-high-level)
+- [🧭 Phase 1 vs Phase 2](#phase-1-vs-phase-2)
+- [🎨 Hello Elementor Theme Assumption](#hello-elementor-theme-assumption)
+- [🌐 Language, Region, and Formatting](#language-region-and-formatting)
+- [🚀 Where to Go Next](#where-to-go-next)
+- [🔗 Official Elementor Resources](#official-elementor-resources)
+- [🧩 Trusted Elementor Kits & Template Resources](#trusted-elementor-kits--template-resources)
+
+---
+
+## 🤖 How an AI Assistant Should Use This Repo
 
 1. **Determine the Elementor mode (Free vs Pro).**
    - If the project/client configuration specifies a mode, follow it.
@@ -46,24 +70,23 @@ In a **multi-agent setup**, the "AI assistant" is typically an orchestrator or p
 
 ---
 
-## Repository Structure
+## 🗂️ Repository Structure
 
 Top-level structure:
 
-- `README.md`
-  - This navigation and overview for the AI assistant.
-- `docs/`
-  - `core-rules.md`
-  - `elementor-modes-free-vs-pro.md`
-  - `elementor-json-templates.md`
-  - `widgets-basic-and-layout.md`
-  - `posts-and-loop-templates.md`
+- 📄 `README.md` – This navigation and overview for the AI assistant.
+- 📁 `docs/`
+  - 📄 `core-rules.md`
+  - 📄 `elementor-modes-free-vs-pro.md`
+  - 📄 `elementor-json-templates.md`
+  - 📄 `widgets-basic-and-layout.md`
+  - 📄 `posts-and-loop-templates.md`
   - (future docs may be added as needed)
-- `schema/`
-  - `ai-config.global.json` – machine-readable global rules and mode definitions.
-- `examples/`
+- 📁 `schema/`
+  - 📄 `ai-config.global.json` – machine-readable global rules and mode definitions.
+- 📁 `examples/`
   - Container-based Elementor JSON template examples for reference and testing (importable into Elementor).
-- `clients/`
+- 📁 `clients/`
   - One folder **per client / per website project**.
   - Sample client folders already present: `clients/Bob/` and `clients/Tom/`.
 
@@ -85,7 +108,7 @@ The AI assistant should always:
 
 ---
 
-## Elementor Mode Selection (High Level)
+## 🎚️ Elementor Mode Selection (High Level)
 
 - **Free mode (Elementor Core only):**
   - Use only **Basic widgets** listed in `docs/elementor-modes-free-vs-pro.md`.
@@ -100,7 +123,7 @@ Detailed lists and rules are in `docs/elementor-modes-free-vs-pro.md` and mirror
 
 ---
 
-## Phase 1 vs Phase 2
+## 🧭 Phase 1 vs Phase 2
 
 - **Phase 1 (current):**
   - Scope: **single page templates** and **section templates**.
@@ -115,7 +138,7 @@ Detailed lists and rules are in `docs/elementor-modes-free-vs-pro.md` and mirror
 
 ---
 
-## Hello Elementor Theme Assumption
+## 🎨 Hello Elementor Theme Assumption
 
 All examples and rules assume:
 
@@ -126,7 +149,7 @@ If a project uses a different theme or heavily modifies the Hello theme, client-
 
 ---
 
-## Language, Region, and Formatting
+## 🌐 Language, Region, and Formatting
 
 - **Language:** English
 - **Locale / Region:** US
@@ -136,7 +159,7 @@ Placeholder text should typically use **Lorem ipsum** in English, and placeholde
 
 ---
 
-## Where to Go Next
+## 🚀 Where to Go Next
 
 For any AI assistant:
 
@@ -147,4 +170,36 @@ For any AI assistant:
    - `docs/widgets-basic-and-layout.md`
    - `docs/posts-and-loop-templates.md` (when working with Posts/Loop layouts in Pro mode).
 5. Inspect any existing templates in `clients/<client-slug>/templates/` before generating new ones.
-# Elementor-json-files
+
+---
+
+## 🔗 Official Elementor Resources
+
+- **Elementor Help Center (knowledge base)**  
+  https://elementor.com/help/
+- **Elementor Website Kits documentation**  
+  https://elementor.com/help/learn-what-are-site-kits/
+- **Working with Elementor Site Kits**  
+  https://elementor.com/help/working-with-elementor-site-kits/
+- **Elementor Academy – guides and tutorials**  
+  https://elementor.com/academy/guides-and-tutorials/
+- **Elementor Developers documentation**  
+  https://developers.elementor.com/
+
+---
+
+## 🧩 Trusted Elementor Kits & Template Resources
+
+- **Envato Elements – Elementor Template Kits**  
+  https://elements.envato.com/wordpress/template-kits
+- **Envato Elements – Elementor-compatible items library**  
+  https://elements.envato.com/wordpress/compatible-with-elementor
+- **ThemeForest – Elementor Template Kits marketplace**  
+  https://themeforest.net/category/wordpress/elementor-kits
+- **Templately – cloud templates & packs for Elementor**  
+  https://templately.com/
+- **Crocoblock – JetPlugins & dynamic templates for Elementor**  
+  https://crocoblock.com/
+- **Katka Template Pack – curated Elementor sections & pages**  
+  https://wpbuilt.co/elementor-katka/
+
